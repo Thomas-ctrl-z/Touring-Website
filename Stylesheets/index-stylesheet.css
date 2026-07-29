@@ -235,8 +235,7 @@ nav a:hover {
 
     font-size:1.1rem;
 
-    font-family: cursive;
-
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 
@@ -366,6 +365,9 @@ nav a:hover {
 
     line-height:1.6;
 
+    font-family: "Trebuchet MS", sans-serif;
+
+
     color:#555;
 
 }
@@ -418,44 +420,6 @@ nav a:hover {
     font-style:italic;
 
 }
-
-
-
-
-/* =========================
-        FOOTER
-========================= */
-
-
-.footer {
-
-    background:#137547;
-
-    color:white;
-
-    padding:40px 8%;
-
-}
-
-
-.footer-content {
-
-    display:flex;
-
-    justify-content:center;
-
-    text-align:center;
-
-}
-
-
-.footer-brand h2 {
-
-    margin-bottom:10px;
-
-}
-
-
 
 
 
