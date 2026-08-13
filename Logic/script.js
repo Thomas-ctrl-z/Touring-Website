@@ -22,3 +22,21 @@ function toggleEmail(event) {
         email.style.display = "inline";
     }
 }
+
+
+// HEADER SCROLL
+
+const header = document.querySelector("header")
+
+window.addEventListener("scroll", () => {
+
+    let scroll = Math.min(window.scrollY / 150, 1);
+
+    scroll = 1 - Math.pow(1 - scroll, 3);
+
+    header.style.backgroundColor = `rgba(19, 117, 71, ${scroll})`;
+
+});
+
+
+// ---------------END------------

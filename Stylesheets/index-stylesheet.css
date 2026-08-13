@@ -34,10 +34,8 @@ a {
 ========================= */
 
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
 
     display: flex;
     justify-content: space-between;
@@ -46,7 +44,12 @@ header {
     padding: 20px 8%;
 
     z-index: 10;
+
 }
+
+/* header.scrolled {
+    background-color: #137547;
+} */
 
 
 .logo img {
