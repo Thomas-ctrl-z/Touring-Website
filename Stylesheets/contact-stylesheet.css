@@ -103,13 +103,13 @@ nav a:hover {
 ========================= */
 
 #Form {
-    min-height: 100vh;
+    min-height: 90vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 160px 20px 60px;
+    padding: 160px 20px 80px;
 
     background: #fff7f2;
 
