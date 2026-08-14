@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 html {
@@ -17,6 +18,8 @@ body {
     background-color: #faf7f0;
     color: #222;
 }
+
+
 
 img {
     max-width: 100%;
@@ -35,26 +38,31 @@ a {
 
 header {
     position: fixed;
+
+    top: 0;
+    left: 0;
+
     width: 100%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 8%;
+    padding: 12px 6%;
+
+    background-color: rgba(19, 117, 71, 0);
+    /* transition: background-color 0.1s linear; */
+
 
     z-index: 10;
 
 }
 
-/* header.scrolled {
-    background-color: #137547;
-} */
 
 
 .logo img {
-    height: 140px !important;
-    width: 140px !important;
+    height: 100px !important;
+    width: 100px !important;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -62,14 +70,17 @@ header {
 
 nav {
     display: flex;
-    gap: 35px;
+    align-items: center;
+    gap: 30px;
 }
 
 
 nav a {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
+
+    text-decoration: none;
 
     transition: .3s;
 }
