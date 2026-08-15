@@ -31,6 +31,10 @@ a {
     color: inherit;
 }
 
+section {
+    scroll-margin-top: 100px;
+}
+
 
 /* =========================
         HEADER
@@ -393,9 +397,9 @@ nav a:hover {
 ========================= */
 
 
-#gallery-reviews {
+#Reviews {
 
-    padding:80px 8%;
+    padding:60px 8%;
 
 }
 
