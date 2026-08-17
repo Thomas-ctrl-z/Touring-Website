@@ -40,25 +40,22 @@
                 </p>
 
 
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
 
-                    <label for="fname"></label>
-                    <input type="text" id="fname" placeholder="Enter your first name">
+                    <input type="hidden" name="access_key" value="27f98239-1c67-4123-b92d-85cd0a53a37a">
 
-                    <label for="lname"></label>
-                    <input type="text"  id="lname" placeholder="Enter your last name">
+                    <input type="text" id="fname" name="first_name" placeholder="Enter your first name">
 
-                     <label for="phone_number"></label>
-                    <input type="text" id="phone_number" placeholder="Enter your phone number">
+                    <input type="text"  id="lname" name="last_name" placeholder="Enter your last name">
 
-                     <label for="email"></label>
-                    <input type="text" id="email" placeholder="Enter your email">
+                    <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number">
 
-                    <textarea id="message" placeholder="Write your message here"></textarea>
+                    <input type="text" id="form_email" name="email" placeholder="Enter your email">
+
+                    <textarea id="message" name="message" placeholder="Write your message here"></textarea>
 
                     <button type="submit">Send Message</button>
                 </form>
-
             </div>
     </div>
 
@@ -86,7 +83,7 @@
                 </div>
 
                 <div class="social-icons">
-                    <a href="https://www.instagram.com/islandflavatour/">
+                    <a href="https://www.instagram.com/islandflavatour/" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-instagram social-icon" style="font-size: x-large;"></i>
                     </a>
                 </div>
@@ -105,8 +102,6 @@
     </footer>
 
 
-    <!-- <script src="Logic/script.js"> -->
-
-    </script>
+    <script src="Logic/script.js"></script>
 </body>
 </html>

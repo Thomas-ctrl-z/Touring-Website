@@ -26,7 +26,7 @@ function toggleEmail(event) {
 
 // HEADER SCROLL
 
-const header = document.querySelector("header")
+const header = document.getElementById("header-scroll")
 
 window.addEventListener("scroll", () => {
 
