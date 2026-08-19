@@ -243,3 +243,76 @@ nav a:hover {
 }
 
 
+
+@media(max-width:768px){
+
+        header {
+
+            flex-direction:column;
+
+            gap:20px;
+
+        }
+
+
+        nav {
+
+            gap:15px;
+
+            flex-wrap:wrap;
+
+            justify-content:center;
+
+        }
+
+
+        .hero-text h1 {
+
+            font-size:2.5rem;
+
+        }
+
+
+        .hero-text h2 {
+
+            font-size:1.4rem;
+
+        }
+
+
+        #About {
+
+            flex-direction:column;
+
+            padding:60px 5%;
+
+        }
+
+
+        .services-info {
+
+            width:90%;
+
+        }
+
+
+        .services-info ul {
+
+            gap:20px;
+
+        }
+
+
+        .menu-title {
+
+            font-size:2.3rem;
+
+        }
+
+       .form-container {
+        margin-top: 30px;
+       }
+}
+
+
+
