@@ -10,6 +10,8 @@
 
     <script src="https://kit.fontawesome.com/844ae0f91d.js" crossorigin="anonymous"></script>
 
+    <!-- FORM DASHBOARD -->
+    <!-- https://app.web3forms.com/dashboard -->
 </head>
 <body>
 
@@ -40,17 +42,17 @@
                 </p>
 
 
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
 
                     <input type="hidden" name="access_key" value="27f98239-1c67-4123-b92d-85cd0a53a37a">
 
-                    <input type="text" id="fname" name="first_name" placeholder="Enter your first name">
+                    <input type="text" autocomplete="off" id="fname" name="first_name" placeholder="Enter your first name" >
 
-                    <input type="text"  id="lname" name="last_name" placeholder="Enter your last name">
+                    <input type="text"  autocomplete="off" id="lname" name="last_name" placeholder="Enter your last name">
 
-                    <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number">
+                    <input type="text" autocomplete="off" id="phone_number" name="phone_number" placeholder="Enter your phone number">
 
-                    <input type="text" id="form_email" name="email" placeholder="Enter your email">
+                    <input type="text" autocomplete="off" id="form_email" name="email" placeholder="Enter your email">
 
                     <textarea id="message" name="message" placeholder="Write your message here"></textarea>
 
@@ -103,5 +105,12 @@
 
 
     <script src="Logic/script.js"></script>
+    <script>
+        const form = document.getElementById("contactForm");
+        form.addEventListener("submit", function(event) {
+            form.reset();
+        });
+    </script>
+    
 </body>
 </html>
